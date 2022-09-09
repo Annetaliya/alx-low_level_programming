@@ -1,7 +1,8 @@
 #include <stdio.h>
 /**
- * main - writes a string to the standard output
- * return: the value of string
+ * main - Entry point
+ *
+ * Return: Always 0 (Success)
  */
 int main(void)
 {
