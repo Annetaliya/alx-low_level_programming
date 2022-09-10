@@ -1,14 +1,14 @@
 #include <stdio.h>
 /**
- * main - Display alphabets inlower case
- *
+ * main - Entry point
  * return: Always 0 (Success)
  */
 int main(void)
 {
-	for (int x = 'a'; x <= 'z'; x++)
+	char ch;
+	for (ch = 'a'; ch <= 'z'; ch++)
 	{
-		putchar(x);
+		putchar(ch);
 	}
 	return (0);
 }
