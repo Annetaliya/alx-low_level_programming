@@ -1,11 +1,13 @@
 #include <stdio.h>
 /**
- * main- Print alphabet in lower and uppercase
- * return: Always 0 (Success)
+ * main- Print lower and uppercase alphabets
+ *
+ * Return: Always 0 (Success)
  */
 int main(void)
 {
 	char ch;
+
 	for (ch = 'a'; ch <= 'z'; ch++)
 	{
 		putchar(ch);
