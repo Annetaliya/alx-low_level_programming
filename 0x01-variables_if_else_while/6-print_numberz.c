@@ -2,17 +2,16 @@
 /**
  * main- Print numbers from 0 to 9
  *
- *return: Always 0 (Success)
+ *Return: Always 0 (Success)
  */
 int main(void)
 {
 	int num;
 
-	num = 0;
-	while (num <= 10);
+	for (num = 0; num >= 10; num++)
 	{
 		putchar(num);
-		num++;
 	}
-	return  (0);
+	return (0);
 }
+
