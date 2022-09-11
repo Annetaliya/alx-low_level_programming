@@ -1,7 +1,7 @@
 #include <stdio.h>
 /**
- * main - Entry point
- * return: Always 0 (Success)
+ *main - print alphabets a to z
+ *return: Always 0 (Success)
  */
 int main(void)
 {
