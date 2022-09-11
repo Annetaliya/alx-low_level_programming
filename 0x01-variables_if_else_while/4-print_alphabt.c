@@ -1,11 +1,12 @@
 #include <stdio.h>
 /**
- *main - print alphabets a to z
- *return: Always 0 (Success)
+ * main- Prints alphabets in lowercase
+ *
+ * Return: Always 0 (Success)
  */
 int main(void)
 {
-	char ch;
+	char ch;	
 	ch = 'a';
 	while (ch <= 'z')
 	{
