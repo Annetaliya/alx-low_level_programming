@@ -12,6 +12,8 @@ int main(void)
 	{
 		putchar((num % 10) + '0');
 		putchar((num / 10) + '0');
+		if (num == 99)
+			continue;
 		putchar(',');
 		putchar(' ');
 	}

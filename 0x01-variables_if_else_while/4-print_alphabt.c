@@ -1,17 +1,20 @@
 #include <stdio.h>
 /**
- * main- Prints alphabets in lowercase
+ * main- Print alphabets in lowercase except eq
  *
  * Return: Always 0 (Success)
  */
 int main(void)
 {
-	char ch;	
-	ch = 'a';
-	while (ch <= 'z')
+	char low, e, q;
+
+	e = 'e';
+	q = 'q';
+	for (low = 'a'; low <= 'z'; low++)
+	if (low != e && low!= q)
 	{
-		putchar(ch);
-		ch++;
+		putchar(low);
 	}
+	putchar('\n');
 	return (0);	     	
 }	
