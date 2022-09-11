@@ -2,7 +2,7 @@
 #include <time.h>
 #include <stdio.h>
 /**
- * main - Determines if n is greater than 5, 0 or less than 6 and not 0
+ * main- Print last digit of a number
  *
  * Return: Always 0 (Success)
  */
