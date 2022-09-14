@@ -1,12 +1,12 @@
 #include "main.h"
 
 /**
- * _print_last_digit-prints the last digit of a number
+ * print_last_digit-prints the last digit of a number
  * @n: parameter member n
  * Return: 0
  */
 
-int _print_last_digit(int n)
+int print_last_digit(int n)
 {
 	int last_digit = n % 10;
 
