@@ -6,17 +6,26 @@
  */
 int main(void)
 {
-	int num;
+	int c = 0;
+	int f_d;
+	int l_d;
 
-	for (num = 0; num <= 99; num++)
+	while (c <= 99)
 	{
-		putchar((num % 10) + '0');
-		putchar((num / 10) + '0');
-		if (num == 99)
-			continue;
-		putchar(',');
-		putchar(' ');
-	}
-	putchar('\n');
-	return (0);
+		f_d = (c / 10 + '0');
+		f_l = (c % 10 + '0');
+		
+		if (f_d < l_d)
+		{
+			putchar(f_d);
+			putchar(l_d);
+		}
+		if (c != 89)
+		{
+			putchar(',');
+			putchar(' ');
+			c++;
+		}
+		putchar('\n');
+		return (0);
 }
